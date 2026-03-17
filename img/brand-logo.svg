@@ -1,0 +1,19 @@
+<svg width="1400" height="1400" viewBox="0 0 1400 1400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="1400" rx="320" fill="#F5EFE6"/>
+  <circle cx="700" cy="700" r="520" fill="#FCFAF6"/>
+  <circle cx="700" cy="700" r="518" stroke="#D2B98E" stroke-width="4"/>
+  <path d="M700 248C790 248 873 279 930 338C988 398 1018 481 1018 577C1018 680 989 760 944 825L780 1063C756 1097 724 1114 700 1114C676 1114 644 1097 620 1063L456 825C411 760 382 680 382 577C382 481 412 398 470 338C527 279 610 248 700 248Z" fill="url(#paint0_linear_1_2)"/>
+  <path d="M700 322C772 322 838 349 884 397C931 445 956 506 956 580C956 655 934 717 898 772L760 972C742 1000 720 1014 700 1014C680 1014 658 1000 640 972L502 772C466 717 444 655 444 580C444 506 469 445 516 397C562 349 628 322 700 322Z" fill="#FCFAF6"/>
+  <path d="M699 447C647 447 610 482 610 535C610 580 635 617 669 658C693 687 699 708 699 747C699 708 705 687 729 658C763 617 788 580 788 535C788 482 751 447 699 447Z" fill="#0F5C5A"/>
+  <path d="M643 773C637 717 653 678 699 638C745 678 761 717 755 773C751 816 730 861 699 904C668 861 647 816 643 773Z" fill="#0F5C5A"/>
+  <path d="M700 246V160" stroke="#D2B98E" stroke-width="18" stroke-linecap="round"/>
+  <path d="M639 223L700 160L761 223" stroke="#D2B98E" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="700" y="1180" text-anchor="middle" fill="#154D4B" font-family="Georgia, 'Times New Roman', serif" font-size="120" letter-spacing="5">MULTI DENT</text>
+  <text x="700" y="1288" text-anchor="middle" fill="#AA8350" font-family="Arial, Helvetica, sans-serif" font-size="58" letter-spacing="14">CLINIC</text>
+  <defs>
+    <linearGradient id="paint0_linear_1_2" x1="700" y1="248" x2="700" y2="1114" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1F6D69"/>
+      <stop offset="1" stop-color="#0F4E4A"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Endodonție | Multi Dent Clinic</title>
+    <meta name="description" content="Tratamente de canal sub microscop pentru salvarea dinților naturali. Endodonție de precizie în Livezeni.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="../css/style.css?v=202603092136">
+    <style>
+        .service-detail-hero {
+            height: 60vh;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: #fff;
+            overflow: hidden;
+            background-color: var(--surface-dark);
+        }
+        .service-hero-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+        }
+        .service-hero-bg img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0.4;
+        }
+        .service-hero-content {
+            position: relative;
+            z-index: 1;
+            max-width: 800px;
+            padding: 0 5%;
+        }
+        .content-section {
+            padding: 6rem 5%;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .content-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+        .back-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 2rem;
+            color: var(--accent-gold);
+            font-weight: 500;
+        }
+        @media (max-width: 768px) {
+            .content-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- CUSTOM CURSOR -->
+    <div class="custom-cursor"></div>
+
+    <!-- NAVBAR -->
+    <nav class="gsap-nav">
+        <a href="../index.html#acasa" class="logo">
+            <img src="../img/brand-logo.svg" alt="Logo Multi Dent Clinic" class="logo-mark" loading="eager" decoding="async">
+            <span class="logo-text">
+                <span class="logo-name">Multi Dent Clinic</span>
+                <span class="logo-tagline">Cabinet Stomatologic</span>
+            </span>
+        </a>
+        <div class="nav-links">
+            <a href="../index.html#acasa" class="nav-item">Acasă</a>
+            <a href="../index.html#medic" class="nav-item">Despre Noi</a>
+            <a href="../index.html#servicii" class="nav-item">Servicii</a>
+            <a href="../index.html#programare" class="btn-gold" style="padding: 0.6rem 1.8rem; margin-left: 1rem;">Rezervă</a>
+        </div>
+    </nav>
+
+    <!-- SERVICE HERO -->
+    <section class="service-detail-hero">
+        <div class="service-hero-bg gs-reveal-img">
+            <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=1500" alt="Endodonție sub Microscop" loading="eager" decoding="async">
+        </div>
+        <div class="service-hero-content">
+            <a href="../index.html#servicii" class="back-btn gsap-fade-up"><i class="fa-solid fa-arrow-left"></i> Înapoi la servicii</a>
+            <h1 class="section-title gsap-fade-up" style="color: #fff; margin-bottom: 1rem;">Endodonție sub Microscop</h1>
+            <p class="gsap-fade-up" style="font-size: 1.2rem; opacity: 0.8;">Salvarea dintelui natural prin precizie microscopică.</p>
+        </div>
+    </section>
+
+    <!-- CONTENT SECTION -->
+    <section class="content-section">
+        <div class="content-grid">
+            <div class="gs-fade-up">
+                <h2 class="section-title" style="font-size: 2.2rem;">Dincolo de Ochiul Liber</h2>
+                <p>Tratamentul de canal (scoaterea nervului) nu mai este o procedură de care să-ți fie teamă. Folosind microscopul operator Carl Zeiss, putem vizualiza detalii pe care ochiul liber le-ar rata, asigurând o curățare și o sigilare perfectă a canalelor.</p>
+                <p style="margin-top: 1.5rem;">Această tehnologie crește rata de succes a tratamentelor la peste 95%, salvând dinți care în trecut ar fi fost extrași fără ezitare.</p>
+            </div>
+            <div class="gs-reveal-img" style="border-radius: 20px; overflow: hidden; aspect-ratio: 4/3;">
+                <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&q=80&w=800" alt="Microscope Detail" loading="lazy" decoding="async">
+            </div>
+        </div>
+    </section>
+
+    <!-- BENEFITS -->
+    <section class="content-section" style="background: var(--surface-light);">
+        <h2 class="section-title text-center" style="text-align: center;">De ce sub Microscop?</h2>
+        <div class="journey-grid" style="color: var(--primary-text);">
+            <div class="step-card gs-fade-up" style="background: transparent; border: none;">
+                <div class="step-num" style="background: white;">01</div>
+                <h3 style="color: var(--primary-text);">Vizibilitate 20x</h3>
+                <p style="color: rgba(0,0,0,0.6);">Permite identificarea canalelor calcificate sau a fracturilor fine.</p>
+            </div>
+            <div class="step-card gs-fade-up" style="background: transparent; border: none; transition-delay: 0.1s;">
+                <div class="step-num" style="background: white;">02</div>
+                <h3 style="color: var(--primary-text);">Tratament Fără Durere</h3>
+                <p style="color: rgba(0,0,0,0.6);">Anestezie locală eficientă și tehnici ultra-moderne.</p>
+            </div>
+            <div class="step-card gs-fade-up" style="background: transparent; border: none; transition-delay: 0.2s;">
+                <div class="step-num" style="background: white;">03</div>
+                <h3 style="color: var(--primary-text);">Siguranță Maximă</h3>
+                <p style="color: rgba(0,0,0,0.6);">Elimină riscul de erori umane datorită vizualizării directe.</p>
+            </div>
+            <div class="step-card gs-fade-up" style="background: transparent; border: none; transition-delay: 0.3s;">
+                <div class="step-num" style="background: white;">04</div>
+                <h3 style="color: var(--primary-text);">Salvarea Dintelui</h3>
+                <p style="color: rgba(0,0,0,0.6);">Cea mai bună variantă este păstrarea dintelui propriu cât mai mult timp.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer style="text-align: center; padding: 4rem 5%;">
+        <a href="../index.html#acasa" class="footer-brand footer-brand-centered">
+            <img src="../img/brand-logo.svg" alt="Logo Multi Dent Clinic" class="footer-logo-mark" loading="lazy" decoding="async">
+            <span class="footer-brand-text">
+                <span class="footer-brand-name">Multi Dent Clinic</span>
+                <span class="footer-brand-tagline">Cabinet Stomatologic</span>
+            </span>
+        </a>
+        <h2 class="section-title">Ești gata pentru noul tău zâmbet?</h2>
+        <a href="../index.html#programare" class="btn-gold">Programează o Consultație</a>
+        <div style="margin-top: 4rem; opacity: 0.5; font-size: 0.9rem;">
+            <p>&copy; 2026 Multi Dent Clinic.</p>
+        </div>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.27/bundled/lenis.min.js"></script>
+    <script src="../js/script.js?v=202603092136"></script>
+</body>
+</html>
